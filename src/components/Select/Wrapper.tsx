@@ -21,6 +21,9 @@ const SelectWrapper = styled.div`
   > option{
     padding: 10px 20px;
   }
+  &:hover, &:active, &:focus{
+    outline: 0;
+  }
 }
 `;
 
