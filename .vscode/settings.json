@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    ".history": true,
+    ".vscode": true,
+    "node_modules": true
+  }
+}

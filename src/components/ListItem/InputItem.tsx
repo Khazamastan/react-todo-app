@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React, {useState, useEffect} from 'react';
 
-const InoutItem = styled.input`
+const InputItem = styled.input`
   flex-grow: 1;
   &:hover, &:focus, &:active {
     outline: none
@@ -36,7 +36,7 @@ export default ({value, onChange}) => {
   }
 
   if(editing || !value){
-    return <InoutItem ref={el} onKeyUp={onChange} onBlur={onBlur} onChange={onChange} value={value}></InoutItem>
+    return <InputItem ref={el} onKeyUp={onChange} onBlur={onBlur} onChange={onChange} value={value}></InputItem>
   } else{
     return <TextItem onClick={(e) => updateIsEditing(e,true)} ref={el}>{value}</TextItem>
 
