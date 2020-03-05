@@ -33,6 +33,7 @@
   ],
   "devDependencies": {
     "@types/ramda": "^0.26.6",
-    "@types/recompose": "^0.30.5"
+    "@types/recompose": "^0.30.5",
+    "fsevents": "^2.1.2"
   }
 }
