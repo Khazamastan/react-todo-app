@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
 import './App.css'
-import Home from './pages/Home/Home.page'
+import Home from './containers/Home/Home.page'
 
 const AppWrapper = styled.div`
   margin: 0 auto;
