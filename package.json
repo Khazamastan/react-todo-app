@@ -11,10 +11,10 @@
     "ramda-adjunct": "^2.16.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8",
+    "react-scripts": "^2.1.8",
     "recompose": "^0.30.0",
     "styled-components": "^5.0.1",
-    "typescript": "3.4.1"
+    "typescript": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
