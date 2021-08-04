@@ -16,13 +16,13 @@ function ListItem({id, item, completeTask, onDelete, onEditTask}) {
   }
   const upDateTaskTitle = (e, type=null) => {
     let {value} = e.target;
-    if(value != item.title){
+    // if(value != item.title){
       setTaskTitle(value);
       setIsEding(true);
       if(e.key === 'Enter'){
         onChange(value);
       }
-    }
+    // }
     if(type == 'blur'){
       setIsEding(false);
     }
